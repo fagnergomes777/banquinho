@@ -7,7 +7,8 @@ class AlunoModel{
         const resultado = await client.query(consulta, dados);
         return resultado.rows;
     }
+    
 
 }
 
-AlunoModel.criar(`Fagner`, `fagner@gmail.com`, `a0000`, `84999999999`,161)
+export default AlunoModel;
